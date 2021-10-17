@@ -1,0 +1,22 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(38, 38, 197);
+}
+
+.images {
+	background: yellowgreen;
+	flex: 0 0 70%;
+	min-height: 75vh;
+	background: url("../images/akame.jpg");
+	background-size: cover;
+	background-image: center;
+	/* background-image: center; */
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	box-shadow: 5px 15px #000;
+	position: relative;
+}
+/* center/cover no-repeat */
