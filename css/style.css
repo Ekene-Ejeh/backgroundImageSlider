@@ -10,13 +10,52 @@ body {
 	background: yellowgreen;
 	flex: 0 0 70%;
 	min-height: 75vh;
-	background: url("../images/akame.jpg");
-	background-size: cover;
-	background-image: center;
-	/* background-image: center; */
-	background-repeat: no-repeat;
+	background: url("../images/img-1.jpg") center/cover no-repeat;
 	border-radius: 15px;
 	box-shadow: 5px 15px #000;
 	position: relative;
 }
-/* center/cover no-repeat */
+.btn {
+	display: inline-block;
+	background: #fff;
+
+	border: 2px solid blue;
+	border-radius: 15px;
+	font-size: 16px;
+	padding: 5px 10px;
+	box-shadow: 2px 4px #000;
+	outline: none;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.prevBtn {
+	color: red;
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translate(-50%, -50%);
+}
+
+.nextBtn {
+	color: green;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	transform: translate(50%, -50%);
+}
+
+/* .prevBtn:active {
+	background: #000;
+	color: #fff;
+} */
+
+.prevBtn:hover {
+	color: #fff;
+	background: red;
+}
+
+.nextBtn:hover {
+	color: #fff;
+	background: green;
+}
